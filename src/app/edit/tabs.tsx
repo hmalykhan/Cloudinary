@@ -44,7 +44,7 @@ export default function TabsDemo({src}:{src:string}) {
                     src={src}
                     sizes="100vw"
                     alt="Description of my image"
-                    blur={800}
+                    // blur={800}
                 /> 
                 </div>
             </TabsContent>
@@ -63,7 +63,7 @@ export default function TabsDemo({src}:{src:string}) {
                     src={src}
                     sizes="100vw"
                     alt="Description of my image"
-                    grayscale={true}
+                    // grayscale={true}
                 /> 
                 </div>
             </TabsContent>
@@ -82,7 +82,7 @@ export default function TabsDemo({src}:{src:string}) {
                     src={src}
                     sizes="100vw"
                     alt="Description of my image"
-                    oilPaint={true}
+                    // oilPaint={true}
                 /> 
                 </div>
             </TabsContent>
