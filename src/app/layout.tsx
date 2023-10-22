@@ -1,10 +1,10 @@
 import Navbar from '@/components/navbar'
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+// import { Inter } from 'next/font/google'
 import Sidebar from '@/components/sidebar'
 
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Picture Gallery',
@@ -18,7 +18,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className='dark'>
-      <body className={inter.className}>
+      {/* className={inter.className} */}
+      <body >
         <Navbar />
         <div className='flex'>
           <div className=' w-1/5'>
